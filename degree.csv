@@ -1,0 +1,51 @@
+,x
+HDFS,9
+Spark,15
+Giraphe,1
+Python,7
+MongoDB,2
+Sprinklr,2
+Hive,8
+Impala,4
+Pig,1
+Sqoop,4
+Flume,2
+Kafka,2
+Lambda,2
+MySQL,4
+Scala,3
+Java,6
+Avro,1
+Tableau,3
+Jupyter,1
+Oozie,2
+YARN,2
+Airflow,2
+GCP,8
+R,2
+Map Reduce,8
+Power BI,3
+Ambari,1
+Denodo,2
+Mahout,2
+Kubernetes,1
+SAS,3
+R Studio,3
+Tensorflow,1
+AWS Kinesis,3
+Dataproc,2
+Dataflow,2
+Cloud Composer,2
+S3,3
+Cloud Storage,2
+Bigquery,5
+Scripting,1
+GA 360,2
+Medallia,1
+SFMC,2
+Docker,2
+CI/CD,1
+Git,3
+Cassandra,2
+HBase,1
+BigTable,3
