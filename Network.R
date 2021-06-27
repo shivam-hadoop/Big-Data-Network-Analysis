@@ -70,13 +70,15 @@ correlation <-read.csv("Correlation.csv")
 z<-cor(x=correlation)
 
 #Drawing Correlogram
-
+plot(z)
 corrplot(z,type = "upper", order = "hclust", t1.col = "black", t1.srt = 45)
 
 # Drawing scatter plots
 
 pairs(z[,1:4],pch=19,horInd=10)
-
+pairs(z[,1:4],pch=1,)
+pairs(~Degree+Betweenness+Closeness+Eigen.Vector,data=correlation,
+      main="Simple Scatterplot Matrix")
 
 #Part 3
 l <- layout_with_fr(bigdata_network)
@@ -145,7 +147,7 @@ print(mean(betweenness(small_world)))
 print(mean(eigen_centrality(small_world)$vector))
 
 cat("Average Path Length",average.path.length(small_world))
-
+shortest.paths(graph = small_world,)
 # Random Network
 
 # No of nodes = 50
